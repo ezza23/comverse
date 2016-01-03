@@ -426,6 +426,9 @@ opacity: 0.8;}
     margin-top: -10px;
     padding-bottom: 5%;
 }
+.more-sol img{
+    padding-left: 9px;
+}
 .more-btn{
     background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
     padding: 9px;
@@ -535,30 +538,19 @@ opacity: 0.8;}
     color:#FFF;
    
 }
-.all img{
-   margin-bottom: auto;
-   margin-top:4%;
 
+@media{
+    .all :hover{
+    color:black;   
 }
 
-.all-news{
 
-background:url(img/eventListIconEvents.png) no-repeat top left;
-
-/*display:inline-block; width:70px; height:70px;*/
-
-}
 
 .all-news:before{
     content: url("../img/eventListIconNews.png");
         display: inline;  
 }
-@media{
-    .all :hover{
-    color:black;
-    
-    
-}
+
 .all-news:hover:before {
   content: url("../img/eventListIconNews_hover.png"); }
 }

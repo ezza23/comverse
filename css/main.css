@@ -611,7 +611,7 @@ opacity: 0.8;}
 
 .stories-list li{
    display: inline-block;
-    width: 31%;
+    width: 31.5%;
     padding: 15px;
 
 }
@@ -648,13 +648,15 @@ opacity: 0.8;}
 }
 q{
     line-height: 25px;
-    font-size: 15px;
+    font-size: 17.5px;
     color: #717171;
     font-weight: lighter;
+
 }
 q:before{
+
     content: url("../img/quote-grey.png");
-    
+  
 }
 
 q:after{
@@ -667,6 +669,7 @@ q:after{
 }
 .details p{
     margin-top: 2%;
+    font-size:15px;
 }
  .details p:first-child{
     color:#4db2ff;
@@ -676,8 +679,9 @@ q:after{
 .detail-logo{
     display: inline-block;
     float: right;
-    margin-top: -23%;
+    margin-top: -21%;
 }
+
 
 
 

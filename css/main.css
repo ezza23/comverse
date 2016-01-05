@@ -216,7 +216,7 @@ background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
     }
 }
 
-.ol-control{
+.slides-control{
     padding: 3%;
     list-style:none;
     list-style-type: none;
@@ -224,7 +224,7 @@ background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
     list-style-image: initial;
     margin-left: -3.4%;
 }
- .ol-control li {
+ .slide1,.slide2,.slide3,.slide4 {
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -233,11 +233,12 @@ background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
     margin-left: 0.5%;
     padding: 0;
     border-radius: 3px;
+    cursor: pointer;
 }
-.ol-control li:hover{
+.slides-control label:hover{
     background-color:#318bad;
 }
-.ol-control li.selected {
+#selected {
 
     background-color: #318bad;
 }

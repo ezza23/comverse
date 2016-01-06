@@ -203,12 +203,19 @@ margin-bottom: -5px;
 
 }
 .learn-more-btn {
-background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
+    background:#2E97CB;
     color:#FFF;
-        padding: 8px;
-        border-radius: 7px;
-        margin-left: -2px;
-        margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: -2px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.learn-more-btn:after{
+    padding-left: 40px;
+    padding-right: 5px;
+    content: url(..//img/btnArrow.png);
 }
 @media{
     .learn-more-btn:hover{

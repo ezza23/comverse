@@ -205,11 +205,11 @@ margin-bottom: -5px;
 .learn-more-btn {
     background:#2E97CB;
     color:#FFF;
-    padding: 10px;
+    padding: 9px;
     border-radius: 6px;
     margin-left: -2px;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .learn-more-btn:after{
@@ -225,11 +225,9 @@ margin-bottom: -5px;
 
 .slides-control{
     padding: 3%;
-    list-style:none;
     list-style-type: none;
-    list-style-position: initial;
-    list-style-image: initial;
     margin-left: -3.4%;
+    padding-bottom: 6%;
 }
  .slide1,.slide2,.slide3,.slide4 {
     width: 10px;
@@ -237,7 +235,7 @@ margin-bottom: -5px;
     display: inline-block;
     background-color: #E7E9E7;
     float: left;
-    margin-left: 0.5%;
+    margin-left: 0.9%;
     padding: 0;
     border-radius: 3px;
     cursor: pointer;
@@ -273,10 +271,6 @@ background-color: #64C23B;
     width: 26.5%;
     cursor: pointer;
     border-radius: 8px;
-    border-top-left-radius:8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
     list-style-type: none;
     box-shadow: 0px 1px 3px 0px gray;
 }
@@ -288,7 +282,7 @@ background-color: #64C23B;
 
 @media (min-width: 500px) {
   .transparent-card{
-opacity: 0.8;}
+opacity: 0.9;}
   .transparent-card:hover {
     opacity: 1; }
 .sol-1:hover{

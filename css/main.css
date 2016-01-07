@@ -343,12 +343,10 @@ opacity: 0.9;}
     display: inline-block;
     width: 150px;
     height:150px;
- 
-    padding: 0;
+    margin:0px;
+    padding: 0px;
     text-align: center;
     vertical-align: middle;
-    margin-left: -3.2%;
-    margin-right: 3.2%;
     display: inline-block;
     float:left;
 }
@@ -433,22 +431,24 @@ opacity: 0.9;}
 }
 
 .more-sol{
-     margin-left: 32%;
+    position: relative;
+     margin-left: 40%;
     margin-top: -10px;
     padding-bottom: 5%;
 }
 .more-sol img{
-    padding-left: 9px;
+    width: 10px;
+    height: 12px;
+    padding-left: 3px; 
 }
 .more-btn{
-    background: linear-gradient(80deg, #318bad, #3EA0C6, #318bad);
+    background: linear-gradient(80deg, #318bad,#318bad, #318bad);
     padding: 9px;
     color:#FFF;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 7px;
     padding-right: 12px;
     padding-left: 12px;
-
 
 }
 @media{
@@ -556,10 +556,11 @@ opacity: 0.9;}
 }
 
 
-
+.all-news{
+    margin-top: -20px;
+}
 .all-news:before{
-    content: url("../img/eventListIconNews.png");
-        display: inline;  
+   content: url("../img/eventListIconNews.png");
 }
 
 .all-news:hover:before {
@@ -568,7 +569,7 @@ opacity: 0.9;}
 
 .all-events:before{
      content: url("../img/eventListIconEvents.png");
-        display: inline; 
+       
 }
 
 .all-events:hover:before {
@@ -577,7 +578,7 @@ opacity: 0.9;}
 
 .all-pr:before{
      content: url("../img/eventListIconPress.png");
-        display: inline; 
+      
 }
 
 .all-pr:hover:before {
@@ -586,7 +587,7 @@ opacity: 0.9;}
 /****** Succes Stories *********** */
 
 .success-stories{
-    background-color: #FFF; /*#ECECEC;*/
+    background-color:#ECECEC;
    
     margin-top: -2%;
   
@@ -616,11 +617,11 @@ opacity: 0.9;}
   
     
 }
-.stories-list li:last-child{
+.stories-list div:last-child{
     width: 20%;
 }
 
-.stories-list li{
+.stories-list div{
    display: inline-block;
     width: 31.5%;
     padding: 15px;
@@ -648,8 +649,14 @@ opacity: 0.9;}
 .sponser-logo img{
    
 }
-.quote{
-   
+.quote1{
+   background-color: #FFF;
+}
+.quote2{
+   background-color: #FFF;
+}
+.quote3{
+   background-color: #FFF;
 }
 .logos{
  
@@ -675,6 +682,7 @@ q:after{
 
 }
 .details {
+    display: block;
    color: #717171; 
 
 }

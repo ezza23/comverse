@@ -60,11 +60,13 @@ ol ul {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.lan-login-link a{
+.lan-login-link > a{
     color:  #717171;
+    margin-left: 7px;
 }
 .lan-login-link a:hover{
     color: #4db2ff;
+    text-decoration: underline;
 }
 .lan-select{
     background-color:#FFF;
@@ -109,10 +111,6 @@ ol ul {
     padding-left: 0px;
     padding-right:-10px;
     border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
     border: 1px solid;
     border-color:  #CCC;
     border-top-width: 1px;
@@ -124,38 +122,29 @@ ol ul {
 }
 .form-container input{
 	   
-
-width: 93px;
-padding: 0px 0px 0px 7px;
+    width: 93px;
+    padding: 0px 0px 0px 7px;
     padding-left: 4px;
-
-border: 1px solid #CCC;
+    border: 1px solid #CCC;
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
 	border-color: white;	
-
     outline-width: 50%;
-    outline-color: -moz-use-text-color;
-display: inline-block;
-
-background: #FFF url("img/divider.png") no-repeat scroll right center;
-    
-outline: medium none;
+    display: inline-block;   
+    outline: medium none;
 
 }
 
 .form-container button {
 	background:center;
     background-position: right center;
-    background-clip: border-box;
-    background-origin: padding-box;
    background-color: transparent;
-border: medium none;
-margin-right: 0px;
-padding-top: 5px;
-cursor: pointer;
+    border: medium none;
+    margin-right: 0px;
+    padding-top: 5px;
+    cursor: pointer;
 
 
 }
@@ -167,14 +156,12 @@ margin-bottom: -5px;
 }
 
 .main-section {  
-  padding-top: 7%;
-	background: transparent url("../img/slide-bg-complexity.jpg") no-repeat fixed center center / cover;
+    padding-top: 7%;
+	background: transparent url("../img/slide-bg-complexity.jpg") no-repeat fixed center center ;
     background-color: transparent;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
     background-size: cover;
 
 }
@@ -224,6 +211,7 @@ margin-bottom: -5px;
 }
 
 .slides-control{
+   
     padding: 3%;
     list-style-type: none;
     margin-left: -3.4%;
@@ -602,7 +590,7 @@ opacity: 0.9;}
   
 
 }
-
+/*
 .succ1{
     display: inline-block;
 }
@@ -613,9 +601,7 @@ opacity: 0.9;}
     width: 105%;
     list-style: none;
     margin-top: -17%;
-    display: inline;
-  
-    
+    display: inline;  
 }
 .stories-list div:last-child{
     width: 20%;
@@ -701,6 +687,102 @@ q:after{
     margin-top: -21%;
 }
 
+*/
+.stories-list{
+    padding:0px;
+    list-style: none;
+    display: inline;  
+}
+.stories-list li{
+    display: inline-block;
+    width: 32%;
+    margin: 4px;
+    padding: 2px;
+    font-size: 15px;
+   
+}
+.stories-list li:last-child{
+    width: 23%;
+    font-size: 18px;
+}
+.stories-list li:first-child{
+    font-size: 18px;
+}
+.quote{
+    padding: 10px;
+    margin: 0 auto;
+    background: #FFF;
+    border-radius: 3px;
+}
+#person{
+    float: left;
+    margin: 1%;
+}
+.quote q{
+    line-height: 25px;
+   
+    color: #717171;
+    font-weight: lighter;
+}
+.details{
+    margin: 0 auto;
+    padding: 2px;
+    color: #717171; 
+}
+.details p:first-child{
+    color:#4db2ff;
+    margin: 0px;
+}
+.details p{
+    margin-top: 2%;
+    font-size:13px;
+}
+
+.quote q:before{
+
+    content: url("../img/quote-grey.png");
+    float: left;
+    padding-right: 5px;
+
+}
+.quote q:after{
+    content: url("../img/quote-grey.png");
+}
+.detail-logo img{
+    float: right;
+    margin-top: -21%;
+}
+
+.company-logos {
+    background-color: #ECECEC;
+
+}
+
+.company-logo{
+    display: inline-block;
+}
+
+.company-logo img{
+    width: 100%;
+    height: 90px;
+}
+/*
+.company-logos div{
+    margin-left:-15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    display: inline-block;
+    background: #FFF;
+    width: 32%;
+    border-radius: 3px;
+    text-align: center;
+}*/
+
+
+
+
+
+
 
 
 
@@ -715,10 +797,10 @@ padding-top: 0;
 .footer-section{
     width: 75%;
     min-width: 700px;
-        margin: 0 auto;
-        color: #EEEEEE;
+    margin: 0 auto;
+    color: #EEEEEE;
 
-         height: 350px
+height: 350px
 }
 
 

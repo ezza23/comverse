@@ -315,11 +315,18 @@ opacity: 1; }
     padding: 0;
     text-align: center;
 }
-
-.solutions-list figcaption{
+.solutions-list li a{
+    color: #FFF;
+}
+/*.solutions-list figcaption{
 
     color:#FFF;
    font-size: 14px;
+}*/
+.solutions-list .figcation{
+     /* color:#FFF;*/
+   font-size: 14px;
+    margin-top: 40%;
 }
 .sol-1{
    
@@ -385,32 +392,38 @@ opacity: 1; }
 }
 .sol-1:hover{
     background-image: url("../img/solution_icon_biz-analitics_hover.png");
+     color: #79D2FF;
 
 }
 .sol-2:hover{
     background-image: url("../img/solution_icon_diti-cx_hover.png");
+    color: #79D2FF;
 }
 .sol-3:hover{
     background-image: url("../img/solution_icon_smart-money_hover.png");
+    color: #79D2FF;
 }
 .sol-4:hover{
     background-image: url("../img/solution_icon_optimize-efficnt_hover.png");
+    color: #79D2FF;
 }
 .sol-5:hover{
     background-image: url("../img/solution_icon_personal_hover.png");
+    color: #79D2FF;
 }
 .sol-6:hover{
     background-image: url("../img/solution_icon_biz-transform_hover.png");
+    color: #79D2FF;
 }
-figure:hover{
+/*figure:hover{
     
-}
-.solutions-list figcaption{
+}*/
+/*.solutions-list figcaption{
     margin-top: 40%;
 }
 .solutions-list figcaption:hover{
     color: #79D2FF;
-}
+}*/
 
 .figure{
 

@@ -567,6 +567,7 @@ opacity: 1; }
   content: url("../img/eventListIconNews_hover.png"); }
 }
 
+
 .all-events:before{
      content: url("../img/eventListIconEvents.png");
        
@@ -574,15 +575,15 @@ opacity: 1; }
 
 .all-events:hover:before {
   content: url("../img/eventListIconEvents_hover.png"); }
+
+.all-press:before{
+    content: url("../img/eventListIconPress.png");
+}
+.all-press:hover:before{
+    content: url("../img/eventListIconPress_hover.png");
 }
 
-.all-pr:before{
-     content: url("../img/eventListIconPress.png");
-      
-}
 
-.all-pr:hover:before {
-  content: url("../img/eventListIconPress_hover.png"); }
 
 /****** Succes Stories *********** */
 

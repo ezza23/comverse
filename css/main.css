@@ -708,7 +708,7 @@ q:after{
 }
 .stories-list li{
     display: inline-block;
-    width: 35.5%;
+    width: 36%;
     margin: 4px;
    /* padding: 2px;*/
     font-size: 15px;
@@ -717,17 +717,35 @@ q:after{
    
 }
 .stories-list li:last-child{
-    width: 22%;
-    font-size: 18px;
+    width: 21%;
+    font-size: 17px;
 }
+.stories-list li:last-child .quote q:before{
+    content: url("../img/quote-grey.png");
+    padding-right: 5px;
+}
+
 .stories-list li:first-child{
-    font-size: 18px;
+    width:34%;
+    font-size: 17px;
+}
+.stories-list li:first-child .quote q:before{
+    content: url("../img/quote-grey.png");
+    padding-right: 5px;
 }
 .quote{
-    padding: 10px;
+    padding: 9px;
+    padding-bottom: 5px;
     margin: 0 auto;
     background: #FFF;
     border-radius: 3px;
+}
+.quote hr{
+    margin-top:15px;
+    margin-left: 10px;
+}
+.stories-list li:first-child .quote hr{
+    margin-top: 35px;
 }
 #person{
     float: left;
@@ -740,6 +758,7 @@ q:after{
 }
 .details{
     margin: 0 auto;
+    margin-left: 5px;
     padding: 2px;
     color: #717171; 
 }
@@ -756,7 +775,7 @@ q:after{
 
 .detail-logo img{
     float: right;
-    margin-top: -21%;
+    margin-top: -20%;
 }
 
 .company-logos {
@@ -770,8 +789,7 @@ q:after{
     width: 30%;
     border-radius: 3px;
     text-align: center;
-   padding: 5px;
-   padding-left: 0px;
+   padding: 0px;
 }
 
 .company-logo img{
@@ -779,7 +797,18 @@ q:after{
     height: 90px;
 }
 #company-logo-3{
-    width: 46.2%;
+    width: 25%;
+    padding-top: 10px;
+    padding-right: 5px;
+
+}
+#company-logo-2{
+    padding-right: 7px;
+    padding-bottom:8px;
+}
+#company-logo-1{
+    padding-right: 7px;
+    padding-top:10px;
 }
 /*
 .company-logos div{

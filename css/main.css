@@ -615,14 +615,14 @@ opacity: 1; }
     float: left; 
 }
 
-blockquote{
+.stories-blockquote{
     background-color: white;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     height: 180px;
 }
 
-blockquote > p{
+.stories-blockquote > p{
     height: 80px;
     padding: 15px;
     border-bottom: 1px solid #DDDDDD;
@@ -630,9 +630,11 @@ blockquote > p{
     text-align: left;
     font-size: 16px; 
 }
+.stories-blockquote >p:before{
+    content: url("../img/quote-grey.png");
+}
 
-
-blockquote > img{
+.stories-blockquote > img{
     float: left;
     padding: 8px;
     height: 90px;
@@ -706,7 +708,13 @@ blockquote > img{
 
     width: 46%;
 }
+.more-stories a > img{
+    width: 10px;
+    height: 10px;
+    padding-left: 7px;
+    margin-top: 2px;
 
+}
 
 
 

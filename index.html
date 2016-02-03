@@ -2,7 +2,7 @@
 <!-- NEED FIXing
 	**** RESPONSIVE **** 
 	1. first event is lower than the others
-	4. highlight the solutions when hover the text under it 
+	
 	
 	
 -->
@@ -11,9 +11,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Document</title>
+    <title>Comverse</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -24,7 +28,19 @@
 			<div class="logo">
 				<a href="#"><img src="img/comverse-logo.png" alt="comverse-logo" /></a>
 			</div>
-			
+
+		<!--   Mobile navbar -->
+		<div class="mob-menu">
+		<label class="mob-menu-btn" for="menu-open"></label>
+		<input type="checkbox" id="menu-open">
+		<ul class="mob-nav">
+				<li><a href="#">YOUR NEEDS</a></li>
+				<li><a href="#">OUR PORTFOLIO</a></li>
+				<li><a href="#">NEWS &amp; MEDIA</a></li>
+				<li><a href="#">ABOUT COMVERSE</a></li>
+			</ul>	
+		</div>
+		<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 		<nav class="navbar">
 			<ul class="nav">
@@ -318,7 +334,7 @@
                     
                 </li>
 
-                <li class="stories-list-right">
+                <li class="last-stories-list">
 	 			<blockquote class="stories-blockquote">
 	 			
 	 				<p>
@@ -332,9 +348,9 @@
 	 			</blockquote>
 
 	 			<div class="logos">
-                                <div class="company right-comp-logo"><img src="img/hp.jpg" alt="" data-pin-nopin="true"></div>
-                                <div class="company right-comp-logo"><img src="img/atos.jpg" alt="" data-pin-nopin="true"></div>
-                    	</div>		
+                    <div class="company last-comp-logo"><img src="img/hp.jpg" alt=""></div>
+                    <div class="company last-comp-logo"><img src="img/atos.jpg" alt=""></div>
+                </div>		
 	 		</li>
         </ul>
 
@@ -413,7 +429,7 @@
 				<hr>
 				<h4>SUBSCRIBE TO COMVERSE</h4>
 				<form action="" class="subscribe-form">
-					<input></input>
+					<input type="email" id="email" placeholder="EMAIL"></input>
 					<button>SING UP</button>	
 				</form>
 				

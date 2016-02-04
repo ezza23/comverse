@@ -950,6 +950,9 @@ padding-top: 0;
 .mob-footer{
     display: none;
 }
+.slides-control-mob{
+    display:none;
+    }
 
 /***** MEDIA MEDIA  MEDIA   **/
 
@@ -1025,17 +1028,6 @@ input[type=checkbox]{
         margin-left: -3%;
         z-index: 1;
 
-       /* display: none;
-        list-style: none;
-        text-transform: uppercase;
-        font: 1.2rem "Open Sans";
-        position: absolute;
-        left: 0;
-        top:0;
-      
-        width: 100%;
-        padding: 0;*/
-
     }
     .mob-nav > li{
         position: relative;
@@ -1103,6 +1095,39 @@ input[type=checkbox]{
     /*margin-top: 7%;*/
      margin-left: 1%;
 }
+.slides-control{
+    display: none;
+}
+
+
+.slides-control-mob{
+    display: block;
+     padding: 3%;
+    list-style-type: none;
+    margin-left: -12px;
+   
+    margin-top: 25%;
+   
+}
+.slide1,.slide2,.slide3,.slide4 {
+    cursor: pointer;
+ 
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #565656;
+    line-height: 30px;
+    
+}
+#selected{
+    color:#EEEEEE;
+}
+.slides-control-mob label:hover{
+    background-color:#318bad;
+    color: #EEEEEE;
+    cursor: pointer;
+
+}
 .transparent-card{
     display: block;
     width:auto;
@@ -1120,7 +1145,7 @@ input[type=checkbox]{
 .main-cards{
     padding: 0;
     list-style: none;
-    margin-top: 100px;
+    margin-top: 25px;
     padding-bottom: 20px;
     margin-bottom: -2.23em;
 }
@@ -1159,6 +1184,26 @@ input[type=checkbox]{
 .event-date > hr {
     margin: 10% 1%;
 }
+
+/***** success stories ***/
+.success-stories{
+    height: 820px;
+}
+.stories-list li{
+    width:73%;
+    float: none;
+    
+}
+.company {
+    /*background-color: #ececec;*/
+}
+.company > img{
+    width: 70%;
+    height: 
+}
+.stories-list > li:last-child{
+    display: none;
+    }
 
 
 /*** mobile footer **/

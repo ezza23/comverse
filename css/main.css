@@ -1254,6 +1254,16 @@ footer{
 .blog-icon{
     padding-left:5%; 
 }
+.copy-rights > a{
+    
+    color:#565656;
+}
+.copy-rights{
+    height:20px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+}
 }
 
 

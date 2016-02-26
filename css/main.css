@@ -749,6 +749,9 @@ padding-top: 0;
     margin: 0;
 
 }
+.links-column  h2{
+    font-size: 16px !important;
+}
 .footer-section{
 
     max-width: 960px;

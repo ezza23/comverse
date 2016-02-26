@@ -44,9 +44,9 @@
 
 		<nav class="navbar">
 			<ul class="nav">
-				<li><a href="#">YOUR NEEDS<img class="search-line" src="img/divider.png" alt="Search"></a></li>
-				<li><a href="#">OUR PORTFOLIO<img class="search-line" src="img/divider.png" alt="Search"></a></li>
-				<li><a href="#">NEWS &amp; MEDIA<img class="search-line" src="img/divider.png" alt="Search"></a></li>
+				<li><a href="#">YOUR NEEDS<img class="search-line" src="img/divider.png" alt=""></a></li>
+				<li><a href="#">OUR PORTFOLIO<img class="search-line" src="img/divider.png" alt=""></a></li>
+				<li><a href="#">NEWS &amp; MEDIA<img class="search-line" src="img/divider.png" alt=""></a></li>
 				<li><a href="#">ABOUT COMVERSE</a></li>
 			</ul>	
 		</nav>
@@ -65,8 +65,8 @@
 		<form class="form-container">
 			<label for="search"><span class="hidden">search</span></label>
 			<input type="text" id="search" > 
-			<img class="search-line" src="img/search_line_devider.png" alt="Search-devider">
-			<button type="submit"><img src="img/searchBtn.png" alt="Searchp-icon"></button>
+			<img class="search-line" src="img/search_line_devider.png" alt="">
+			<button type="submit"><img src="img/searchBtn.png" alt="Search-icon"></button>
 		</form>
 	</div>
 	</header>
@@ -75,12 +75,12 @@
         <section class="section-container">
         	<!--- 	SLIDER SLIDER SLIDER    -->
        		<ul class="highlights">
-       			<li class="first-slide">
+       			<li class="first-slide" id="slide-one">
        				<div class="slide-content">
 						<h1>Free your markets 
 						<br>from complexity</h1>
-			        	<h3>Comverse policy studio
-			        	<br> <strong>1st</strong> ever marketing-oriented policy tool</h3>
+			        	<h2>Comverse policy studio
+			        	<br> <strong>1st</strong> ever marketing-oriented policy tool</h2>
 			        	
 			       		
 		       		</div>
@@ -88,29 +88,29 @@
 		       	</li>
 		       		<a href="#" class="learn-more-btn">LEARN MORE </a>
 		       	<!-- these are the other slides with no content -->
-		       	<li class="second-slide">
+		       	<li class="second-slide" id="slide-two">
 					<div class="slide-content"></div>
 		       	</li>
-		       	<li class="third-slide">
+		       	<li class="third-slide" id="slide-three">
 					<div class="slide-content"></div>
 		       	</li>
-		       	<li class="fourth-slide">
+		       	<li class="fourth-slide" id="slide-four">
 					<div class="slide-content"></div>
 		       	</li>
 		  	</ul>
         	<div class="slides-control">
-				<label class="slide1" for="first-slide" id="selected"><span class="hidden">1</span></label>
-				<label class="slide2" for="second-slide"><span class="hidden">2</span></label>
-   			    <label class="slide3" for="third-slide"><span class="hidden">3</span></label>
-				<label class="slide4" for="fourth-slide"><span class="hidden">4</span></label>
+				<label class="slide1" for="slide-one" id="selected"><span class="hidden">1</span></label>
+				<label class="slide2" for="slide-two"><span class="hidden">2</span></label>
+   			    <label class="slide3" for="slide-three"><span class="hidden">3</span></label>
+				<label class="slide4" for="slide-four"><span class="hidden">4</span></label>
 			</div>
 			<!-- slide controller numbers for mobile -->
 
 			<div class="slides-control-mob">
-				<label class="slide1" for="first-slide" id="selected">1</label>
-				<label class="slide2" for="second-slide">2</label>
-   			    <label class="slide3" for="third-slide">3</label>
-				<label class="slide4" for="fourth-slide">4</label>
+				<label class="slide1" for="slide-one" id="selected">1</label>
+				<label class="slide2" for="slide-two">2</label>
+   			    <label class="slide3" for="slide-three">3</label>
+				<label class="slide4" for="slide-four">4</label>
 			</div>
 			
 		
@@ -178,7 +178,7 @@
         	<li>
         		<a href="#">
         			<figure>
-        				<div class="sol-2"><!--<img src="img/solution_icon_diti-cx.png">-->
+        				<div class="sol-2">
         				<div class="figcation">Digital Customer<br>Experience </div></div>
         			</figure>
         		</a>
@@ -186,7 +186,7 @@
         	<li>
         		<a href="#">
         			<figure>
-        				<div class="sol-3"><!--<img src="img/solution_icon_smart-money.png">-->
+        				<div class="sol-3">
         				<div class="figcation">Smart Monetization</div></div>
         			</figure>
         		</a>
@@ -203,7 +203,7 @@
         	<li>
         		<a href="#">
         			<figure>
-	        			<div class="sol-5"><!--<img src="img/solution_icon_personal.png">-->
+	        			<div class="sol-5">
 	        			<div class="figcation">Presonalized Choice <br> &amp; Control</div></div>
         			</figure>
         		</a>
@@ -211,7 +211,7 @@
         	<li>
         		<a href="#">
         			<figure>
-	        			<div class="sol-6"><!--<img src="img/solution_icon_biz-transform.png">-->
+	        			<div class="sol-6">
 	        			<div class="figcation">Business <br> Transformation</div></div>
         			</figure>
         		</a>
@@ -298,24 +298,24 @@
         <ul class="stories-list">
              <li>
                 <blockquote class="stories-blockquote">
-                    <img src="img/person2.png" alt="Jonathan Pierce">
+                    <img src="img/person2.png" alt="Jonathan Pierce photo">
                      <p> We have very good and very warm relations with Comverse. We always achieved...</p>
                      <div class="details" itemscope="" itemtype="">
                             <p itemprop="">SERGEY KOROTYCH</p>
                             <p itemprop="">Deputy CTO, 3 Mob Ukraine</p>
                         </div>
-                        <div class="person-logo" id="mob-logo"><img src="img/mob.jpg" alt="sponser-logo" data-pin-nopin="true"></div>
+                        <div class="person-logo" id="mob-logo"><img src="img/mob.jpg" alt="mob-logo" data-pin-nopin="true"></div>
                     </blockquote>
                   		
                   		 <div class="logos">
                                 <div class="company">
-                               		<img src="img/cycle.jpg" alt="">
+                               		<img src="img/cycle.jpg" alt="cycle logo">
                                	</div>
                                	<div class="company">
-                               		<img src="img/bull.jpg" alt="">
+                               		<img src="img/bull.jpg" alt="bull logo">
                                	</div>
                                	<div class="company">
-                               		<img src="img/gamplus.jpg" alt="">
+                               		<img src="img/gamplus.jpg" alt="gamplus logo">
                                	</div>
 
                                	
@@ -324,23 +324,23 @@
                 <li>
                     <div class="logos-middle">
 	 				<div class="company">
-	 					<img src="img/mtc.jpg" alt="">
+	 					<img src="img/mtc.jpg" alt="mtc logo">
 	 				</div>
 	 				<div class="company">
-	 					<img src="img/caple.jpg" alt="">
+	 					<img src="img/caple.jpg" alt="caple logo">
 	 				</div>
 	 				<div class="company">
-	 					<img src="img/trilgoy.jpg" alt="">
+	 					<img src="img/trilgoy.jpg" alt="trilgoy logo">
 	 				</div>
 	 			</div>
 				<blockquote class="stories-blockquote">
-                    	<img src="img/person1.png" alt="">
+                    	<img src="img/person1.png" alt="adale Kehassan photo">
                         <p> Comverse has demonstrated that they are partners, not just suppliers, because...</p>
                         <div class="details" itemscope="">
                            	<p itemprop="name">Adale Kehassan</p>
                             <p itemprop="jobTitle">CIO of Multi-links</p>
                         </div>
-                        <div class="person-logo"><img src="img/multi_links.png" alt="mob logo"></div>
+                        <div class="person-logo"><img src="img/multi_links.png" alt="multi links logo"></div>
                 </blockquote>
 
                     
@@ -356,12 +356,12 @@
 	 					<p>RAVISHANKER</p>
 	 					<p>Tata Sky CIO N.</p>
 	 				</div>
-	 				<div class="person-logo"><img src="img/tata_sky.png" alt="mob logo"></div>
+	 				<div class="person-logo"><img src="img/tata_sky.png" alt="tata sky logo"></div>
 	 			</blockquote>
 
 	 			<div class="logos">
-                    <div class="company last-comp-logo"><img src="img/hp.jpg" alt=""></div>
-                    <div class="company last-comp-logo"><img src="img/atos.jpg" alt=""></div>
+                    <div class="company last-comp-logo"><img src="img/hp.jpg" alt="hp logo"></div>
+                    <div class="company last-comp-logo"><img src="img/atos.jpg" alt="atos logo"></div>
                 </div>		
 	 		</li>
         </ul>
@@ -389,7 +389,7 @@
 			<div class="footer-links">
 				<div class="all-links">
 					<div class="links-column">
-						<h5>KEY SOLUTIONS</h5>
+						<h2>KEY SOLUTIONS</h2>
 						<ul>
 							<li><a href="#">Monetizing Data</a></li>
 							<li><a href="#">Over The Top (OTT)</a></li>
@@ -403,7 +403,7 @@
 						</ul>
 					</div>
 					<div class="links-column">
-						<h5>PRODUCTS &amp; SERVICES</h5>
+						<h2>PRODUCTS &amp; SERVICES</h2>
 						<ul>
 							<li><a href="#">Billing</a></li>
 							<li><a href="#">VAS</a></li>
@@ -413,7 +413,7 @@
 						</ul>
 					</div>
 					<div class="links-column">
-						<h5>COMPANY</h5>
+						<h2>COMPANY</h2>
 						<ul>
 							<li><a href="#">executive profiles</a></li>
 							<li><a href="#">clients</a></li>
@@ -463,9 +463,9 @@
 				<li><a>CONTACT US</a></li>
 				<li><a>SUBSCRIBE TO COMVERSE NEWS</a></li>
 				<li>VISIT US ON:
-					<a href="http://linkedin.com" target="_blank" id="linked-in-icon" class="blog-icon"><span class="hidden">linkedin</span></a>
-					<a href="http://youtube.com" target="_blank" id="you-tube-icon"class="blog-icon"><span class="hidden">youtube</span></a>
-					<a href="http://twitter.com" target="_blank" id="twitter-icon" class="blog-icon"><span class="hidden">twitter</span></a>
+					<a href="http://linkedin.com" target="_blank" class="blog-icon"><span class="hidden">linkedin</span></a>
+					<a href="http://youtube.com" target="_blank" class="blog-icon"><span class="hidden">youtube</span></a>
+					<a href="http://twitter.com" target="_blank" class="blog-icon"><span class="hidden">twitter</span></a>
 					
 				</li>
 				<li>CHANGE LANGUAGE:

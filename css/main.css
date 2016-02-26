@@ -195,6 +195,7 @@ ol ul {
     margin-left: -2px;
     margin-bottom: 40px;
     font-size: 13px;
+   
 }
 
 .learn-more-btn:after{
@@ -449,7 +450,10 @@ opacity: 1; }
     border-radius: 7px;
     padding-right: 12px;
     padding-left: 12px;
-
+}
+.more-btn:after{
+      padding-left: 7px;
+    content: url(..//img/btnArrow.png);
 }
 @media{
     .more-btn:hover{
@@ -1264,9 +1268,11 @@ footer{
     text-align: center;
     font-weight: bolder;
 }
+
+
+
+.hidden{
+    display: none;
 }
-
-
-
 
 

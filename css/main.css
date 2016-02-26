@@ -217,7 +217,7 @@ ol ul {
     width: 10%;
 }
 
- .slide1,.slide2,.slide3,.slide4 {
+ .slides-control li{
     cursor: pointer;
     width: 10px;
     height: 10px;
@@ -231,12 +231,12 @@ ol ul {
     
 }
 
-.slides-control label:hover{
+.slides-control li:hover{
     background-color:#318bad;
     cursor: pointer;
 
 }
-#selected {
+li.selected {
 
     background-color: #318bad;
 }
@@ -749,7 +749,7 @@ padding-top: 0;
     margin: 0;
 
 }
-.links-column  h2{
+.links-column  h2,h3{
     font-size: 16px !important;
 }
 .footer-section{
@@ -761,10 +761,6 @@ padding-top: 0;
     color: #EEEEEE;
 }
 
-
-.all-links{
-
-}
 .footer-links {
     position: relative;
   width: 70%;
@@ -1116,20 +1112,27 @@ input[type=checkbox]{
     margin-top: 25%;
    
 }
-.slide1,.slide2,.slide3,.slide4 {
+.slides-control-mob li{
     cursor: pointer;
- 
     width: 30px;
     height: 30px;
     text-align: center;
     color: #565656;
     line-height: 30px;
+     display: inline-block;
+    background-color: #E7E9E7;
+    float: left;
+    margin-left: 0.9%;
+    padding: 0;
+    border-radius: 3px;
+    margin-right: 6px;
     
 }
-#selected{
+li.selected{
+    background-color: #318bad;
     color:#EEEEEE;
 }
-.slides-control-mob label:hover{
+.slides-control-mob li:hover{
     background-color:#318bad;
     color: #EEEEEE;
     cursor: pointer;

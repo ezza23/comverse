@@ -225,19 +225,23 @@ ol ul {
     background-color: #E7E9E7;
     float: left;
     margin-left: 0.9%;
-    padding: 0;
+    padding: 0px 0px 3px 3px;
     border-radius: 3px;
     margin-right: 6px;
-    
+     font-size: 10px;
+     color: #E7E9E7;
 }
+    
+
 
 .slides-control li:hover{
     background-color:#318bad;
     cursor: pointer;
+    color: #318bad;
 
 }
 li.selected {
-
+        color: #318bad;
     background-color: #318bad;
 }
 
@@ -1128,6 +1132,8 @@ input[type=checkbox]{
     padding: 0;
     border-radius: 3px;
     margin-right: 6px;
+
+
     
 }
 li.selected{

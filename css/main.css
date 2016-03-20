@@ -93,7 +93,7 @@ ol ul {
 }
 .form-container{
 	position: absolute;
-	margin-top:3.4%;
+	margin-top:3.6%;
     margin-left: 1%;
 	display: inline-block;
 	float: right;
@@ -487,6 +487,37 @@ background-color: #64C23B;
     margin: 4px;
     padding: 2px;
     font-size:12px;
+}
+.stories-content:before{
+    background: #2899C8 url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 315px; 
+    margin-top:16px;
+    transition: height 0.5s;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    height: 0;
+
+}
+.stories-content:hover:before{
+    height: 180px;
+  }
+.last:before{
+    width: 240px;
+
+}
+.content-logo:before{
+    width: 98px;
+    margin-top:0px;
+    display: inline-block;
+}
+.content-logo:hover:before{
+    height: 95px;
+  }
+
+.logo-last:before{
+    width: 115px;
 }
 .last-stories-list{
     width: 26% !important;

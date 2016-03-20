@@ -488,6 +488,9 @@ background-color: #64C23B;
     padding: 2px;
     font-size:12px;
 }
+.stories-content{
+    color: rgb(60,60,60);
+}
 .stories-content:before{
     background: #2899C8 url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
     content: "";
